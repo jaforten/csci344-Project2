@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <head>
+    <meta name= "viewport" content= "width=device-width" />
+    <title>Search Twitter Feeds!</title>
+      
+     <link rel= "stylesheet" href= "stylesheets/App/app.css">
+  </head>
+  <body>
+    <p>Search Twitter!</p>
+    <div id="interface_div">
+      <input id="user_input"></input>
+      <button id="user_input_button">Click Me!</button>
+    </div>
+    
+    <div style="display:none;" id="result_div">
+      <p style="font-size:5em"></p>
+    </div>
+    <div id = "container">
+      <div id="tweets">&nbsp;</div>
+    </div>
+       <script src="javascripts/lib/ctwitter/build/ctwitter.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="javascripts/app/app.js"></script>
+  </body>
+</html>
