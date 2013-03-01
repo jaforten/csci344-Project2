@@ -3,10 +3,11 @@
     <meta name= "viewport" content= "width=device-width" />
     <title>Search Twitter Feeds!</title>
       
-     <link rel= "stylesheet" href= "stylesheets/App/app.css">
+    <link rel= "stylesheet" href= "stylesheets/App/app.css">
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <p>Search Twitter!</p>
+    <div class="burning">Twitter Feed!</div>
     <div id="interface_div">
       <input id="user_input"></input>
       <button id="user_input_button">Click Me!</button>
@@ -18,8 +19,12 @@
     <div id = "container">
       <div id="tweets">&nbsp;</div>
     </div>
-       <script src="javascripts/lib/ctwitter/build/ctwitter.js"></script>
+   
+        <script src="javascripts/lib/ctwitter/build/ctwitter.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="javascripts/app/app.js"></script>
+    <script src="javascripts/app/plugin.js"></script>
+    <script src="https://raw.github.com/Sinetheta/burn/master/jquery.burn.min.js"></script>
+   
   </body>
 </html>

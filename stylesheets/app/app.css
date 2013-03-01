@@ -2,38 +2,68 @@ body {
   background-color: gray;
 }
 
+.burning{
+  color: white;        
+  background: black;    
+  font-weight: bold;
+  font-size: 50px;
+  width:100%;
+  height: auto;
+  border: 3px solid #ccc;
+ 
+}
+
+
 #interface_div {
+padding: 30px;
   
 }
 
 #user_input{
-  
+  font-family: 'Cutive Mono', serif;
+  font-size: 4em;
+  font-style: bold;
+  font-size: 1em;
+  margin-left: 30%;
+  margin-top: 0px;
 }
 
 #user_input_button{
-  
-}
+  font-family: 'Domine', serif;
+  font-style:bold;
+  font-size: 1em;
+ 
+} 
 
 #result_div{
-  
+  font-family: 'Cutive Mono', serif; 
+  font-style: bold;
+  font-size: 10px;
+  margin:0px;
+  padding:0px;
+  height: 50px;
 }
 
 #container{
-  border: 3px solid black;
-  height: auto;
-  width: 100%;
 
+  height: 50px;
+  width: 100%;
+}
 
 #tweets img {
   height:90px;
   border: 2px solid #ccc;
   margin: 10px;
-  width: 80px;
+  width-left: 30px;
   margin: 20px;
-  }
+}
 
 #tweets p{
+  padding: 10px;
+  color: white;
   font-size: 30px;
   font-style: bold;
-  font-family: sans-serif. Times;
+  font-family: 'Cutive Mono', serif;
+  font-size: 2em;
+  width: auto;
 }
